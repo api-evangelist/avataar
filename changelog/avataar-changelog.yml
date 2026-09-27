@@ -1,0 +1,32 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.avataar.ai/knowledge-center/release-notes.md
+sources:
+- https://docs.avataar.ai/knowledge-center/release-notes.md
+- https://docs.avataar.ai/knowledge-center/release-notes/version-2.4.md
+- https://docs.avataar.ai/knowledge-center/release-notes/version-2.3.md
+- https://docs.avataar.ai/knowledge-center/release-notes/version-2.2.md
+entries:
+- breaking: false
+  highlights:
+  - We're excited to announce a new update to Creator! This release brings several new features and improvements to enhance experience creation
+    and animation experience.
+  - Camera Modes
+  - 'Note: Switching between camera modes within a project may result in the loss of some animations and keyframes due to differing animation
+    methods.'
+- breaking: false
+  highlights:
+  - We're excited to announce a new update to Creator! This release brings several new features and improvements to enhance experience creation
+    and animation experience.
+  - 'Enhanced Text Control and Animation:'
+  - 'Image Generation: Unleash your creativity with the all-new Generate Image feature.'
+- breaking: false
+  highlights:
+  - We're excited to announce a new update to Creator! This release brings several new features and improvements to enhance experience creation
+    and animation experience.
+  - 'Enhanced Timeline Navigation: Precise zoom controls and cursor snapping for effortless keyframe placement.'
+  - 'Layer Repositioning: Freely move layers to adjust your animation layout.'
+current_version: '2.4'
+note: Versioning scheme not specified in the provided pages.
+docs: https://docs.avataar.ai/knowledge-center/release-notes.md

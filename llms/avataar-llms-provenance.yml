@@ -1,0 +1,6 @@
+generated: '2026-09-26'
+method: probed
+generator: harvest-llms.py
+source: https://docs.avataar.ai/knowledge-center/llms.txt
+bytes: 12547
+note: saved verbatim; the provider's own document

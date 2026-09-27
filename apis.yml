@@ -1,23 +1,88 @@
 aid: avataar
+
 name: Avataar
-description: 'Avataar is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/Awv4LQyN0yfNwwV0/screenshot-2025-06-25-at-6.52.36a-pm-YD0wjbGPQxFVorNW.png
+
+description: Avataar is an AI-native transformation platform based in Bengaluru, India, founded in 2014. It provides a suite of agentic AI tools
+  that automate enterprise workflows, improve operational efficiency, and enable intelligent execution across industries such as finance, manufacturing,
+  healthcare, and retail. The company raised $55.5M in Series B funding and serves large enterprises seeking to modernize their processes with
+  autonomous AI agents.
+
 url: https://raw.githubusercontent.com/api-evangelist/avataar/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- AI
+- Enterprise
+- Automation
+- AgenticAI
+- Bengaluru
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/avataar-changelog.yml
+- type: LLMsTxt
+  url: llms/avataar-llms.txt
+- type: WellKnown
+  url: well-known/avataar-well-known.yml
+- type: Hosts
+  url: hosts/avataar-hosts.yml
+- type: TermsOfService
+  url: https://www.avataar.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.avataar.ai/privacy-policy
+- type: ChangeLog
+  url: https://docs.avataar.ai/knowledge-center/release-notes
+- type: GettingStarted
+  url: https://docs.avataar.ai/knowledge-center/before-getting-started/3d-user
+- type: DomainSecurity
+  url: security/avataar-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.avataar.ai/
+- type: Documentation
+  url: https://www.avataar.ai/platform-and-technology
+- type: About
+  url: https://www.avataar.ai/about
+- type: Contact
+  url: https://www.avataar.ai/contact
+
+apis:
+- name: Avataar API
+  description: API for Avataar platform providing AI-native transformation services.
+  humanURL: https://docs.avataar.ai/knowledge-center
+  aid: avataar:avataar-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered HTML; markdown twins exist but contain no machine-readable specs.
+  evidence:
+  - url: https://docs.avataar.ai/knowledge-center
+    status: 200
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
