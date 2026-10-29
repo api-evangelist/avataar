@@ -64,5 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Avataar is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Avataar is an AI-native transformation platform based in Bengaluru, India, founded in 2014. It provides a suite of agentic AI tools that automate enterprise workflows, improve operational efficiency, and enable intelligent execution across industries such as finance, manufacturing, healthcare, and retail. The company raised $55.5M in Series B funding and serves large enterprises seeking to modernize their processes with autonomous AI agents.
+
+**Areas:** Company · Artificial Intelligence · Enterprise · Automation · AI Agents · Bengaluru
+
+## Avataar on APIs.io
+
+Everything profiled for Avataar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/avataar/](https://apis.io/providers/avataar/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Avataar API](https://apis.io/apis/avataar/avataar-api/) — API for Avataar platform providing AI-native transformation services.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Avataar Domain Security](https://apis.io/security/avataar/avataar-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.avataar.ai/)
+- [Documentation](https://www.avataar.ai/platform-and-technology)
+- [Getting started](https://docs.avataar.ai/knowledge-center/before-getting-started/3d-user)
+- [Changelog](https://docs.avataar.ai/knowledge-center/release-notes)
+- [Terms of service](https://www.avataar.ai/terms-and-conditions)
+- [Privacy policy](https://www.avataar.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/avataar/](https://apis.io/providers/avataar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Avataar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/avataar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
